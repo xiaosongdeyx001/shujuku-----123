@@ -1,0 +1,24 @@
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\obj\Debug\ResolveAssemblyReference.cache
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementBLL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementBLL.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementDAL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\bin\Debug\MySql.Data.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementDAL.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\obj\Debug\HotelManagementBLL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementBLL\obj\Debug\HotelManagementBLL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementBLL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementBLL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementDAL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\bin\Debug\MySql.Data.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementDAL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\obj\Debug\HotelManagementBLL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementBLL\obj\Debug\HotelManagementBLL.pdb
+H:\文件\C#\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementBLL.dll
+H:\文件\C#\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementBLL.pdb
+H:\文件\C#\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementDAL.dll
+H:\文件\C#\HotelManagement\HotelManagementBLL\bin\Debug\MySql.Data.dll
+H:\文件\C#\HotelManagement\HotelManagementBLL\bin\Debug\HotelManagementDAL.pdb
+H:\文件\C#\HotelManagement\HotelManagementBLL\obj\Debug\ResolveAssemblyReference.cache
+H:\文件\C#\HotelManagement\HotelManagementBLL\obj\Debug\HotelManagementBLL.dll
+H:\文件\C#\HotelManagement\HotelManagementBLL\obj\Debug\HotelManagementBLL.pdb

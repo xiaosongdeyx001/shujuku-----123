@@ -1,0 +1,78 @@
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementUI.exe
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementUI.pdb
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.FormLogin.resources
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.FormMain.resources
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Properties.Resources.resources
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.exe
+d:\用户目录\我的文档\visual studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementBLL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementDAL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\MySql.Data.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementBLL.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementDAL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.exe
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementUI.exe
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementUI.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementBLL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementDAL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\MySql.Data.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementBLL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementDAL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.Form_CheckIn.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.FormLogin.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.FormMain.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Properties.Resources.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoom.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomAdd.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomModify.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomSearch.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomer.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerAdd.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerModify.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerSearch.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomer.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerAdd.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerModify.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerSearch.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoom.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomAdd.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomModify.resources
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomSearch.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.FormCheckIn.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.FormCheckOut.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.CheckInLog.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.System_.FormPsModify.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.exe
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.pdb
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementUI.exe
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementUI.pdb
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementBLL.dll
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementDAL.dll
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\MySql.Data.dll
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementBLL.pdb
+H:\文件\C#\HotelManagement\HotelManagementUI\bin\Debug\HotelManagementDAL.pdb
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.CheckInLog.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.FormCheckIn.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.CheckIn.FormCheckOut.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.FormLogin.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.FormMain.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Properties.Resources.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomer.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerAdd.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerModify.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Roomer.FormRoomerSearch.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoom.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomAdd.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomModify.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.Room.FormRoomSearch.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\HotelManagementUI.System_.FormPsModify.resources
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\GenerateResource.read.1.tlog
+H:\文件\C#\HotelManagement\HotelManagementUI\obj\x86\Debug\GenerateResource.write.1.tlog

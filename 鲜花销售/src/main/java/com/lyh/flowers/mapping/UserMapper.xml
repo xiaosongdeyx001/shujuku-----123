@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lyh.flowers.dao.IUserDao" >
+  <resultMap id="BaseResultMap" type="com.lyh.flowers.pojo.User" >
+    <id column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="loginname" property="loginname" jdbcType="VARCHAR" />
+    <result column="loginpass" property="loginpass" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="CHAR" />
+    <result column="status" property="status" jdbcType="INTEGER" />
+    <result column="activationCode" property="activationCode" jdbcType="VARCHAR" />
+    <result column="registTime" property="registTime" jdbcType="CHAR" />
+    <result column="validataCode" property="validataCode" jdbcType="VARCHAR" />
+    <result column="outDate" property="outDate" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    uid, loginname, loginpass, email,phone, status,activationCode,registTime,validataCode,outDate
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from t_user
+    where uid = #{uid,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="findByEmail" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select *
+    from t_user
+    where email = #{email,jdbcType=VARCHAR}
+  </select>
+  
+  <select id="findByCode" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select * 
+    from t_user 
+    where activationCode=#{0}
+  </select>
+  
+  <select id="findByUid" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select * 
+    from t_user 
+    where uid=#{0}
+  </select>
+  
+  <select id="findByUserName" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select *
+    from t_user
+    where loginname =#{0}
+  </select>
+  
+   <select id="findByUidAndPassword" resultType="java.lang.Integer" parameterType="java.lang.String">
+    select count(1)
+    from t_user
+    where uid = #{0} and loginpass=#{1}
+  </select>
+  
+  <select id="loginCheck" resultMap="BaseResultMap">
+  	select * from t_user where loginname = #{0} and loginpass = #{1}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from t_user
+     where uid = #{uid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.lyh.flowers.pojo.User" >
+    insert into t_user ( uid, loginname, loginpass, email,phone, status,activationCode,registTime,validataCode,outDate)
+    values (#{uid,jdbcType=VARCHAR}, #{loginname,jdbcType=VARCHAR}, #{loginpass,jdbcType=VARCHAR}, 
+      #{email,jdbcType=VARCHAR},#{phone,jdbcType=CHAR},#{status,jdbcType=INTEGER},#{activationCode,jdbcType=VARCHAR},
+      #{registTime,jdbcType=CHAR},#{validataCode,jdbcType=VARCHAR},#{outDate,jdbcType=CHAR})
+  </insert>
+  
+  <update id="updateByPrimaryKey" parameterType="com.lyh.flowers.pojo.User" >
+    update t_user
+    set loginname = #{loginname,jdbcType=VARCHAR},
+        loginpass = #{loginpass,jdbcType=VARCHAR},
+        email = #{email,jdbcType=VARCHAR},
+        phone=#{phone,jdbcType=CHAR},
+        status = #{status,jdbcType=INTEGER},
+        activationCode = #{activationCode,jdbcType=VARCHAR},
+        registTime = #{registTime,jdbcType=CHAR},
+        validataCode = #{validataCode,jdbcType=VARCHAR},
+        outDate=#{outDate,jdbcType=CHAR}
+    where uid = #{uid,jdbcType=VARCHAR}
+  </update>
+   <update id="updatePassWord" parameterType="java.lang.String">
+    update t_user
+    set 
+        loginpass = #{1}
+    where uid = #{0}
+  </update>
+  
+  <update id="updateStatus" parameterType="com.lyh.flowers.pojo.User" >
+    update t_user 
+    set status = #{status,jdbcType=INTEGER}
+    where uid=#{uid,jdbcType=VARCHAR}
+  </update>
+  
+</mapper>

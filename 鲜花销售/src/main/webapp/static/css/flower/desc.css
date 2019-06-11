@@ -1,0 +1,142 @@
+html, body, p, div, li, ul, form, ol, dt, h1, h2, h3, h4, h5 {
+	    margin: 0px;
+	    padding: 0px;
+	    font-size: 12px;
+	    font-family: Arial,SimSun;
+	}
+	#PagePath, #CartStep {
+	    background: url(../../image/page-path-bg.png) repeat-x;
+	    height: 28px;
+	    border: 1px solid #ddd;
+	    line-height: 28px;
+	}
+	#PagePath p {
+	    background: url(../../image/page-path-split.gif) no-repeat right center;
+	    padding-left: 6px;
+	    padding-right: 14px;
+	    height: 28px;
+	    line-height: 30px;
+	}
+	.fl {
+	    float: left;
+	}
+	
+	.frameMarginRight {
+	    margin-right: 10px;
+	}
+	img {
+	    border: 0;
+	}
+	#GoodsAlbum .AlbumList {
+	    width: 399px;
+	}
+	#GoodsAlbum .GoodsImage {
+	    width: 395px;
+	    height: 420px;
+	    text-align: center;
+	    border: 1px solid #ccc;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    padding: 1px;
+	}
+	#GoodsHead {
+	    margin-left: 409px;
+	}
+	#GoodsHead h2 {
+	    font-size: 16px;
+	    line-height: 25px;
+	    text-align: center;
+	    color: blue;
+	}
+	#GoodsHead dt {
+	    float: left;
+	    width: 54px;
+	}
+	#GoodsHead dt, #GoodsHead dd {
+	    line-height: 20px;
+	    border-top: 1px dotted #eee;
+	    padding: 5px 0;
+	}
+	#GoodsHead dd {
+	    margin-left: 54px;
+	}
+	#GoodsHead .PanelBuy {
+	    background: #fffbf7;
+	    border: 1px solid #ffce9a;
+	    padding: 12px;
+	}
+	#GoodsHead .PanelBuy p {
+	    line-height: 20px;
+	}
+	
+	#GoodsHead .PanelBuy strong {
+	    font-size: 18px;
+	}
+	.TextRed {
+	    color: #ff3d10;
+	}
+	.frameMarginLeft {
+	    margin-left: 10px;
+	}
+	.InvText {
+	    color: #999;
+	    text-decoration: line-through;
+	}
+	.frameMarginTop {
+	    margin-top: 10px;
+	}
+	.BtnBuy {
+	    background: url(../../image/btn-buy.png) no-repeat;
+	}
+	.BtnBuy, .BtnQuickBuy {
+	    height: 30px;
+	    width: 131px;
+	    margin-top: 3px;
+	    margin-right: 3px;
+	    *margin-top: 1px;
+	    *margin-right: 1px;
+	    cursor: pointer;
+	    display: inline-block;
+	}
+	.BtnQuickBuy {
+	    background: url(../../image/btn-quick-buy.png) no-repeat;
+	}
+	a {
+	    text-decoration: none;
+	    color: #4e4e4e;
+	}
+	.cf {
+	    clear: both;
+	}
+	.fbRed {
+	    background: url(../../image/fb-red.png) no-repeat;
+	}
+	.FullBar {
+	    height: 30px;
+	    line-height: 30px;
+	}
+	.FullBarText {
+	    display: inline-block;
+	    width: 110px;
+	    color: #FFF;
+	    text-align: center;
+	}
+	.DispalyContentBox {
+	    border: 1px solid #eee;
+	    padding: 15px;
+	    overflow: hidden;
+	}
+	.frameMarginBot {
+	    margin-bottom: 10px;
+	}
+	body {
+		background-color: #ffffff;
+	}
+	#MainPanel {
+    width: 700px;
+	}
+	
+	
+	
+	
+	

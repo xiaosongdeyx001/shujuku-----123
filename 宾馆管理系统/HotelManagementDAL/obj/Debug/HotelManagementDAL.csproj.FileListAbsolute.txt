@@ -1,0 +1,18 @@
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementDAL\bin\Debug\HotelManagementDAL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementDAL\bin\Debug\HotelManagementDAL.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementDAL\bin\Debug\MySql.Data.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementDAL\obj\Debug\HotelManagementDAL.dll
+D:\用户目录\我的文档\Visual Studio 2010\Projects\HotelManagement\HotelManagementDAL\obj\Debug\HotelManagementDAL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementDAL\bin\Debug\HotelManagementDAL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementDAL\bin\Debug\HotelManagementDAL.pdb
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementDAL\bin\Debug\MySql.Data.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementDAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementDAL\obj\Debug\HotelManagementDAL.dll
+C:\Users\SL302\Desktop\HotelManagement\HotelManagementDAL\obj\Debug\HotelManagementDAL.pdb
+H:\文件\C#\HotelManagement\HotelManagementDAL\bin\Debug\HotelManagementDAL.dll
+H:\文件\C#\HotelManagement\HotelManagementDAL\bin\Debug\HotelManagementDAL.pdb
+H:\文件\C#\HotelManagement\HotelManagementDAL\bin\Debug\MySql.Data.dll
+H:\文件\C#\HotelManagement\HotelManagementDAL\obj\Debug\ResolveAssemblyReference.cache
+H:\文件\C#\HotelManagement\HotelManagementDAL\obj\Debug\HotelManagementDAL.dll
+H:\文件\C#\HotelManagement\HotelManagementDAL\obj\Debug\HotelManagementDAL.pdb
