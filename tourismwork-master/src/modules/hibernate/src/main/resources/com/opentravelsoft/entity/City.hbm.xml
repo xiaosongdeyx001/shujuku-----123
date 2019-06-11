@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="com.opentravelsoft.entity.City" table="tbl_city">
+    <id name="citycd" type="string">
+      <column name="CITYCD" length="4" />
+      <generator class="assigned" />
+    </id>
+    <many-to-one name="country" class="com.opentravelsoft.entity.Country" lazy="false" fetch="select">
+      <column name="COUNTRY" length="2" />
+    </many-to-one>
+    <property name="citynm" type="string">
+      <column name="CITYNM" length="20" not-null="true" />
+    </property>
+    <property name="cityen" type="string">
+      <column name="CITYEN" length="20" />
+    </property>
+    <many-to-one name="province" class="com.opentravelsoft.entity.Province" lazy="false" fetch="join"  not-found="ignore">
+      <column name="PROVINCE" length="2" />
+    </many-to-one>
+    <property name="inOut" type="string">
+      <column name="IN_OUT" length="1" />
+    </property>
+    <property name="ioCity" type="string">
+      <column name="IO_CITY" length="1" />
+    </property>
+    <property name="webKey" type="string">
+      <column name="WEB_KEY" length="1" not-null="true" />
+    </property>
+    <property name="isDelete" type="java.lang.Byte">
+      <column name="IS_DELETE" />
+    </property>
+    <set name="lines" table="tbl_line" inverse="true" lazy="true" fetch="select">
+      <key>
+        <column name="OUT_CITY" length="4" />
+      </key>
+      <one-to-many class="com.opentravelsoft.entity.Line" />
+    </set>
+    <set name="plans" table="tbl_plan" inverse="true" lazy="true" fetch="select">
+      <key>
+        <column name="OUT_CITY" length="4" />
+      </key>
+      <one-to-many class="com.opentravelsoft.entity.Plan" />
+    </set>
+    <set name="airports" table="tbl_airport" inverse="true" lazy="true" fetch="select">
+      <key>
+        <column name="CITY_ID" length="4" />
+      </key>
+      <one-to-many class="com.opentravelsoft.entity.Airport" />
+    </set>
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+# system
+.DS_Store
+
+# editor
+.idea
+*.iml
+
+/docs
+/data
+/src/modules/core/target
+/src/modules/hibernate/target
+/src/modules/struts2/target
+/src/modules/service/target
+/src/modules/workflow/target
+/src/apps/manage/target
+/src/apps/portal/target
+/src/apps/report/target
+/src/apps/report/src/main/webapp/WEB-INF/platform
+/src/modules/model/target
+/src/modules/mybatis/target
+/src/apps/admin/target
+/src/apps/admin/src/main/webapp/WEB-INF/classes

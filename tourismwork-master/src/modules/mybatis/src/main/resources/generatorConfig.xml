@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration
+ PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+  <classPathEntry location="D:\apache-tomcat-7.0.14\lib\mysql-connector-java-5.1.16-bin.jar" /> 
+  <context id="context1" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/tourismwork_db" userId="root" password="mysql" />
+    <javaModelGenerator targetPackage="com.opentravelsoft.entity" targetProject="TourismWork" />
+    <sqlMapGenerator targetPackage="com.opentravelsoft.mapping" targetProject="TourismWork" />
+    <javaClientGenerator targetPackage="com.opentravelsoft.dao" targetProject="TourismWork" type="XMLMAPPER" />
+
+    <!-- 
+    <table schema="" tableName="tbl_ad" domainObjectName="" />
+    <table schema="" tableName="tbl_ad_position" domainObjectName="" />
+    <table schema="" tableName="tbl_airport" domainObjectName="" />
+    <table schema="" tableName="tbl_airways" domainObjectName="" />
+    <table schema="" tableName="tbl_announce" domainObjectName="" />
+    <table schema="" tableName="tbl_booking" domainObjectName="" />
+    <table schema="" tableName="tbl_booking_ext" domainObjectName="" />
+    <table schema="" tableName="tbl_booking_flight" domainObjectName="" />
+    <table schema="" tableName="tbl_booking_hotel" domainObjectName="" />
+    <table schema="" tableName="tbl_booking_payment" domainObjectName="" />
+    <table schema="" tableName="tbl_branch" domainObjectName="" />
+    <table schema="" tableName="tbl_category" domainObjectName="" />
+    <table schema="" tableName="tbl_city" domainObjectName="" />
+    <table schema="" tableName="tbl_contact" domainObjectName="" />
+    <table schema="" tableName="tbl_country" domainObjectName="" />
+    <table schema="" tableName="tbl_cpic_prem" domainObjectName="" />
+    <table schema="" tableName="tbl_crm_case_b" domainObjectName="" />
+    <table schema="" tableName="tbl_crm_express" domainObjectName="" />
+    <table schema="" tableName="tbl_crm_expresslist" domainObjectName="" />
+    <table schema="" tableName="tbl_customer" domainObjectName="" />
+    <table schema="" tableName="tbl_dest_catalog" domainObjectName="" />
+    <table schema="" tableName="tbl_destination" domainObjectName="" />
+    <table schema="" tableName="tbl_district" domainObjectName="" />
+    <table schema="" tableName="tbl_expense_tmpl" domainObjectName="" />
+    <table schema="" tableName="tbl_extendservices" domainObjectName="" />
+    <table schema="" tableName="tbl_flight" domainObjectName="" />
+    <table schema="" tableName="tbl_flightcycleprice" domainObjectName="" />
+    <table schema="" tableName="tbl_flightgroup" domainObjectName="" />
+    <table schema="" tableName="tbl_flightplan" domainObjectName="" />
+    <table schema="" tableName="tbl_guide" domainObjectName="" />
+    <table schema="" tableName="tbl_hotel" domainObjectName="" />
+    <table schema="" tableName="tbl_hotel_facility" domainObjectName="" />
+    <table schema="" tableName="tbl_hotel_file" domainObjectName="" />
+    <table schema="" tableName="tbl_hotel_price" domainObjectName="" />
+    <table schema="" tableName="tbl_hotel_roomtype" domainObjectName="" />
+    <table schema="" tableName="tbl_income" domainObjectName="" />
+    <table schema="" tableName="tbl_income_acct" domainObjectName="" />
+    <table schema="" tableName="tbl_invoice" domainObjectName="" />
+    <table schema="" tableName="tbl_line" domainObjectName="" />
+    <table schema="" tableName="tbl_line_country" domainObjectName="" />
+    <table schema="" tableName="tbl_line_desc" domainObjectName="" />
+    <table schema="" tableName="tbl_line_district" domainObjectName="" />
+    <table schema="" tableName="tbl_line_hotel" domainObjectName="" />
+    <table schema="" tableName="tbl_line_price" domainObjectName="" />
+    <table schema="" tableName="tbl_line_schedule" domainObjectName="" />
+    <table schema="" tableName="tbl_line_sights" domainObjectName="" />
+    <table schema="" tableName="tbl_line_theme" domainObjectName="" />
+    <table schema="" tableName="tbl_line_traffic" domainObjectName="" />
+    <table schema="" tableName="tbl_line_visa" domainObjectName="" />
+    <table schema="" tableName="tbl_linecycleprice" domainObjectName="" />
+    <table schema="" tableName="tbl_lineextendservice" domainObjectName="" />
+    <table schema="" tableName="tbl_lists" domainObjectName="" />
+    <table schema="" tableName="tbl_log" domainObjectName="" />
+    <table schema="" tableName="tbl_outcome" domainObjectName="" />
+    <table schema="" tableName="tbl_outcome_acct" domainObjectName="" />
+    <table schema="" tableName="tbl_pinyin" domainObjectName="" />
+    <table schema="" tableName="tbl_plan" domainObjectName="" />
+    <table schema="" tableName="tbl_plan_price" domainObjectName="" />
+    <table schema="" tableName="tbl_planfit" domainObjectName="" />
+    <table schema="" tableName="tbl_portal_category" domainObjectName="" />
+    <table schema="" tableName="tbl_portal_role" domainObjectName="" />
+    <table schema="" tableName="tbl_price_file" domainObjectName="" />
+    <table schema="" tableName="tbl_product_item" domainObjectName="" />
+    <table schema="" tableName="tbl_product_tmpl" domainObjectName="" />
+    <table schema="" tableName="tbl_province" domainObjectName="" />
+    <table schema="" tableName="tbl_reckoning" domainObjectName="" />
+    <table schema="" tableName="tbl_reckoning_acct" domainObjectName="" />
+    <table schema="" tableName="tbl_region" domainObjectName="" />
+    <table schema="" tableName="tbl_role" domainObjectName="" />
+    <table schema="" tableName="tbl_route_chain" domainObjectName="" />
+    <table schema="" tableName="tbl_scheduled_flight" domainObjectName="" />
+    <table schema="" tableName="tbl_sequence" domainObjectName="" />
+    <table schema="" tableName="tbl_share_flight" domainObjectName="" />
+    <table schema="" tableName="tbl_sight" domainObjectName="" />
+    <table schema="" tableName="tbl_sight_comment" domainObjectName="" />
+    <table schema="" tableName="tbl_sight_photo" domainObjectName="" />
+    <table schema="" tableName="tbl_sms_receive" domainObjectName="" />
+    <table schema="" tableName="tbl_sms_send" domainObjectName="" />
+    <table schema="" tableName="tbl_sms_template" domainObjectName="" />
+    <table schema="" tableName="tbl_sp_case" domainObjectName="" />
+    <table schema="" tableName="tbl_sys_config" domainObjectName="" />
+    <table schema="" tableName="tbl_team_customer" domainObjectName="" />
+    <table schema="" tableName="tbl_team_memberships" domainObjectName="" />
+    <table schema="" tableName="tbl_teams" domainObjectName="" />
+    <table schema="" tableName="tbl_tour_cost" domainObjectName="" />
+    <table schema="" tableName="tbl_tour_outbound" domainObjectName="" />
+    <table schema="" tableName="tbl_tourist" domainObjectName="" />
+    <table schema="" tableName="tbl_tournotice_file" domainObjectName="" />
+    <table schema="" tableName="tbl_traffic_chain" domainObjectName="" />
+    <table schema="" tableName="tbl_trait_type" domainObjectName="" />
+    <table schema="" tableName="tbl_userpayol" domainObjectName="" />
+    <table schema="" tableName="tbl_visa" domainObjectName="" />
+    <table schema="" tableName="tbl_visa_attached" domainObjectName="" />
+    <table schema="" tableName="tbl_visa_data" domainObjectName="" />
+    <table schema="" tableName="tbl_visa_item" domainObjectName="" />
+    <table schema="" tableName="tbl_visa_list" domainObjectName="" />
+    <table schema="" tableName="tbl_visa_listitem" domainObjectName="" />
+    <table schema="" tableName="tbl_visa_transact" domainObjectName="" />
+    -->
+    <table schema="" tableName="tbl_employee" domainObjectName="Employee"/>
+    <table schema="" tableName="tbl_membership" domainObjectName="Membership" />
+    <table schema="" tableName="tbl_group" domainObjectName="Group"/>
+    <table schema="" tableName="tbl_team_memberships" domainObjectName="TeamMembership"/>
+    <table schema="" tableName="tbl_teams" domainObjectName="Team"/>
+  </context>
+  
+  <context id="context2" >
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/tourismwork_db" userId="root" password="mysql" />
+    <javaModelGenerator targetPackage="com.opentravelsoft.model" targetProject="TourismWork" />
+    <sqlMapGenerator targetPackage="com.opentravelsoft.mapping" targetProject="TourismWork" />
+    <javaClientGenerator targetPackage="com.opentravelsoft.dao" targetProject="TourismWork" type="XMLMAPPER" />
+    <table schema="" tableName="tbl_module" domainObjectName="Module"/>
+    <table schema="" tableName="tbl_module_permission" domainObjectName="ModulePermission"/>
+    <table schema="" tableName="tbl_permission" domainObjectName="Permission"/>
+    <table schema="" tableName="tbl_role" domainObjectName="Role"/>
+    <table schema="" tableName="tbl_member" domainObjectName="Member" />
+    <table schema="" tableName="tbl_member_role" domainObjectName="PortalRole" />
+        <table schema="" tableName="tbl_shortcut" domainObjectName="Shortcut" />
+  </context>
+</generatorConfiguration>

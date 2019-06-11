@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans default-autowire="byType">
+
+  <!-- Booking -->
+  <bean id="OrderBookingAction" class="com.opentravelsoft.action.booking.OrderBookingAction" singleton="false">
+  </bean>
+  <bean id="InvoiceAction" class="com.opentravelsoft.action.branch.InvoiceAction" singleton="false">
+  </bean>
+
+  <bean id="PaymentSearchAction" class="com.opentravelsoft.action.account.PaymentSearchAction" singleton="false">
+  </bean>
+
+  <bean id="FileDownloadAction" class="com.opentravelsoft.action.account.FileDownloadAction" singleton="false">
+  </bean>
+
+  <bean id="ManageAccountAction" class="com.opentravelsoft.action.account.ManageAccountAction" singleton="false">
+  </bean>
+
+  <bean id="MyInfoAction" class="com.opentravelsoft.action.account.MyInfoAction" singleton="false">
+  </bean>
+  <bean id="RetrieveMemberAction" class="com.opentravelsoft.action.account.RetrieveMemberAction" singleton="false">
+  </bean>
+
+</beans>

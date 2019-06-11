@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans default-autowire="byType">
+
+  <bean id="BaseAction" class="com.opentravelsoft.BaseAction" singleton="false">
+  </bean>
+
+  <bean id="LineListAction" class="com.opentravelsoft.action.product.LineListAction" singleton="false">
+  </bean>
+
+  <bean id="LineSearchAction" class="com.opentravelsoft.action.product.LineSearchAction" singleton="false">
+  </bean>
+
+  <bean id="BranchAction" class="com.opentravelsoft.action.branch.BranchAction" singleton="false">
+  </bean>
+
+  <bean id="VisaLineAction" class="com.opentravelsoft.action.product.VisaListAction" singleton="false">
+  </bean>
+  <bean id="VisaListAction" class="com.opentravelsoft.action.product.VisaListAction" singleton="false">
+  </bean>
+  <bean id="VisaDetailAction" class="com.opentravelsoft.action.product.VisaHelpAction" singleton="false">
+  </bean>
+
+  <bean id="LineDetailAction" class="com.opentravelsoft.action.product.LineDetailAction" singleton="false">
+  </bean>
+
+  <bean id="PayerOLAction" class="com.opentravelsoft.action.pay.PayerOLAction" singleton="false">
+  </bean>
+
+  <bean id="ReceiveSmsAction" class="com.opentravelsoft.action.sms.ReceiveAction" singleton="false">
+  </bean>
+
+</beans>
