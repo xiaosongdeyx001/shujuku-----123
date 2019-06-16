@@ -16,6 +16,3 @@ Getting Started
 
 
 ---------------
-
-Please post any questions, comments or problems to the GingkgoTravelERP
-forum on SourceForge.
